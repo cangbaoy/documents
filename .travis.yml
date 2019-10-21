@@ -1,0 +1,26 @@
+language: node_js
+# nodejs版本
+node_js:
+    - '10'
+
+# S: Build Lifecycle
+install:
+  - npm install
+script:
+  # 生成静态文件
+  - npm run build
+
+  # 进入生成的文件夹
+  - cd dist
+  - git init
+  - git config user.name "${user}"
+  - git config user.email "${email}"
+  - git add -A
+  - git commit -m 'deploy'
+  # 如果发布到 https://<USERNAME>.github.io/<REPO>
+  - git push --force --quiet "https://${access_token}@${project}" master:${branch}
+
+# 只对某个分支行为生效
+branches:
+  only:
+    - master
