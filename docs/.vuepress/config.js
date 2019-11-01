@@ -9,7 +9,8 @@ module.exports = {
     },
   },
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }]
   ],
   markdown: {
     lineNumbers: true // 代码块显示行号
