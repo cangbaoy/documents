@@ -2,6 +2,12 @@ module.exports = [
     // 指南
 	{ text: '指南', link: '/zh/guide/' },
 	{ text: '宝典', link: '/zh/knowledge/' },
+	// 知识体系
+	{ text: '知识体系', 
+		items: [
+			{ text: 'Java核心知识点', link: '/zh/java/' }
+		],
+	},
 	// 在线文档
 	{ text: '在线文档',        // 这里是下拉列表展现形式。
 			items: [

@@ -8,10 +8,7 @@ module.exports = {
       lang: 'zh-CN',
     },
   },
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }]
-  ],
+  head: require('./head/header'),
   markdown: {
     lineNumbers: true // 代码块显示行号
   },
