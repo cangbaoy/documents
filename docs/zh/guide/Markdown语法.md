@@ -1,4 +1,4 @@
-# 如何使用 Markdown 记笔记
+# 如何使用 Markdown
 - 编辑器使用： [Typora下载](https://share.weiyun.com/5VcB7X2) 密码：rXU4
 
 ## 标题

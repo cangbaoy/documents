@@ -3,8 +3,14 @@ const utils = require('../../utils/index')
 const titles = ['指南', '文档']
 
 const childrenData = [
-  ['','start-markdown','start-vuepress'],
-  ['start-test']
+  [
+    '',
+    'Markdown语法',
+    'Vuepress优化'
+  ],
+  [
+    '文档测试'
+  ]
 ]
 
 /**
