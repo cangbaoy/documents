@@ -1,0 +1,46 @@
+{
+  "name": "documents",
+  "short_name": "文档",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "start_url": "index.html",
+  "icons": [
+    {
+     "src": "\/documents\/icons\/apple-icon-57x57.png",
+     "sizes": "57x57",
+     "type": "image\/png",
+     "density": "0.75"
+    },
+    {
+     "src": "\/documents\/icons\/apple-icon-76x76.png",
+     "sizes": "76x76",
+     "type": "image\/png",
+     "density": "1.0"
+    },
+    {
+     "src": "\/documents\/icons\/apple-icon-120x120.png",
+     "sizes": "120x120",
+     "type": "image\/png",
+     "density": "1.5"
+    },
+    {
+     "src": "\/documents\/icons\/apple-icon-144x144.png",
+     "sizes": "144x144",
+     "type": "image\/png",
+     "density": "2.0"
+    },
+    {
+      "src": "\/documents\/icons\/apple-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image\/png",
+      "density": "2.5"
+    },
+    {
+      "src": "\/documents\/icons\/apple-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image\/png",
+      "density": "3.0"
+    }
+  ]
+}
